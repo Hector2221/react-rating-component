@@ -1,0 +1,103 @@
+/* card */
+.card {
+    width: 412px;
+    height: 416px;
+    background: var(--black-gradient);
+    border-radius: 30px;
+    padding: 32px;
+}
+
+/* card 1 */
+.star {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    margin-top: 24px;
+    gap: 21px;
+}
+
+.numbers {
+    width: 51px;
+    height: 51px;
+    background: var(--dark-blue);
+    border: none;
+    border-radius: 50%;
+    color: var(--medium-gray);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.numbers:hover {
+    cursor: pointer;
+    color: var(--pure-white);
+    background: var(--medium-gray);
+}
+
+button[type=submit] {
+    width: 341px;
+    height: 45px;
+    background: var(--orange);
+    border-radius: 22.5px;
+    color: var(--pure-white);
+    border: none;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+button[type=submit]:hover {
+    cursor: pointer;
+    color: var(--orange);
+    background: var(--pure-white);
+}
+
+.card-how {
+    position: absolute;
+    z-index: 2;
+}
+
+.selected:focus {
+    background: var(--orange);
+    color: var(--pure-white);
+}
+
+/* card result */
+.item-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 35px;
+    z-index: 1;
+}
+
+.active-result {
+    z-index: 3;
+}
+
+.result {
+    width: 193px;
+    height: 32px;
+    border-radius: 22.5px;
+    background: var(--dark-blue);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --first-font: 'Overpass', sans-serif;
+    --dark-blue: #262E38;
+    --light-grey: #969FAD;
+    --medium-gray: #7C8798;
+    --orange: #FC7614;
+    --pure-white: #FFFFFF;
+    --very-dark-blue: #131518;
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
+
+body {
+    background: var(--very-dark-blue);
+    font-family: var(--first-font);
+
+}
+
+/* utilidades */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--pure-white);
+    margin: 30px 0 7px 0;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--orange);
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--light-grey);
+}
