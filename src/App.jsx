@@ -14,8 +14,11 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/rating/:selectedButton" element={<RatingPage />} />
-          <Route path="/" element={<HomePage />} />
+          <Route
+            path="react-rating-component/rating/:selectedButton"
+            element={<RatingPage />}
+          />
+          <Route path="react-rating-component/" element={<HomePage />} />
           {/* This must always be at the end */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>

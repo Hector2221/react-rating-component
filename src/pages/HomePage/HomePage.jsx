@@ -33,7 +33,7 @@ export const HomePage = () => {
           </button>
         ))}
       </div>
-      <Link to={`/rating/${selectedButton}`}>
+      <Link to={`rating/${selectedButton}`}>
         <button
           className="submit"
           type="submit"
